@@ -39,7 +39,7 @@ module.exports = module.exports.toString();
 /***/ 139:
 /***/ (function(module, exports) {
 
-module.exports = "\n<bs-navbar></bs-navbar>\n<div class=\"container\">\n\n  <div class=\"starter-template\">\n    <h1>{{title}}</h1>\n    <p class=\"lead\"> All you get is this text and a mostly barebones HTML document.</p>\n  </div>\n\n</div><!-- /.container -->\n\n"
+module.exports = "\n<bs-navbar></bs-navbar>\n<div class=\"container\">\n\n  <div class=\"starter-template\">\n    <h1>{{title}}</h1>\n    <p class=\"lead\"> All you get is this text and a mostly barebones HTML document.</p>\n\n    <form>\n      <div class=\"form-group\">\n        <label for=\"exampleInputEmail1\">Email address</label>\n        <input type=\"email\" class=\"form-control\" id=\"exampleInputEmail1\" aria-describedby=\"emailHelp\" placeholder=\"Enter email\">\n        <small id=\"emailHelp\" class=\"form-text text-muted\">We'll never share your email with anyone else.</small>\n      </div>\n      <div class=\"form-group\">\n        <label for=\"exampleInputPassword1\">Password</label>\n        <input type=\"password\" class=\"form-control\" id=\"exampleInputPassword1\" placeholder=\"Password\">\n      </div>\n      <div class=\"form-check\">\n        <label class=\"form-check-label\">\n          <input type=\"checkbox\" class=\"form-check-input\">\n          Check me out\n        </label>\n      </div>\n      <button type=\"submit\" class=\"btn btn-primary\">Submit</button>\n    </form>\n  </div>\n\n</div><!-- /.container -->\n\n"
 
 /***/ }),
 
