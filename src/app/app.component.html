@@ -1,3 +1,27 @@
-<h1>
-  {{title}}
-</h1>
+<bs-navbar>
+</bs-navbar>
+<div class="container">
+
+  <div class="starter-template">
+    <h1>{{title}}</h1>
+    <p class="lead"> Enter Sign up information here</p>
+
+    <form [formGroup]="form">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input formControlName="username" type="email" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <small *ngIf="username.touched && username.invalid" class="alert alert-danger form-text text-muted">Username is required</small>
+      </div>
+      <div class="form-group">
+        <label for="InputPassword1">Password</label>
+        <input formControlName="password" type="password" class="form-control" id="InputPassword1" placeholder="Password">
+        <small *ngIf="password.touched && password.invalid" class="alert alert-danger form-text text-muted">Password is required</small>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+</div>
+<!-- /.container -->
